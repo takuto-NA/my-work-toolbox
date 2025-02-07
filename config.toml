@@ -1,11 +1,14 @@
-baseURL = 'https://github.com/takuto-NA/my-work-toolbox.git'
+baseURL = 'https://takuto-na.github.io/my-work-toolbox/'
 languageCode = 'ja'
 title = 'My Work Toolbox'
 theme = 'PaperMod'
 
 [params]
-  description = "業務効率化のための自作ツール集"
-  
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowBreadCrumbs = true
+
 [menu]
   [[menu.main]]
     identifier = "tools"
